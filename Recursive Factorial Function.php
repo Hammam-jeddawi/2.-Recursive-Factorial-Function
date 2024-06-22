@@ -8,8 +8,6 @@
     <?php
 
 /**
-* Calculates the factorial of a given non-negative integer using recursion.
-*
 * @param int $n The integer for which the factorial is to be calculated.
 * @return int The factorial of the given integer.
 * @throws InvalidArgumentException If the input is not a non-negative integer.
