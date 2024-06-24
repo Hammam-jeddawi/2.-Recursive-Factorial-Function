@@ -7,11 +7,11 @@
   <body>
     <?php
 
-/**
-* @param int $n The integer for which the factorial is to be calculated.
-* @return int The factorial of the given integer.
-* @throws InvalidArgumentException If the input is not a non-negative integer.
-*/
+
+// @param int $n The integer for which the factorial is to be calculated.
+// @return int The factorial of the given integer.
+// @throws InvalidArgumentException If the input is not a non-negative integer.
+
 function factorial(int $n): int {
    if ($n < 0) {
        throw new InvalidArgumentException('Factorial is not defined for negative numbers.');
